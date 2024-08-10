@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suitmedia Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Logo</a>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="banner">
+        <div class="banner-content">
+            <h1>Welcome to the EngLearning Website</h1>
+            <p>Improve Your English Skills With the Best Courses</p>
+        </div>
+        <div class="banner-image"></div>
+    </section>
+
+    <section class="list-posts">
+        <div class="container">
+            <div class="controls">
+                <label for="show-per-page">Show per page</label>
+                <select id="show-per-page">
+                    <option value="10">10</option>
+                    <option value="20">20</option>
+                    <option value="50">50</option>
+                </select>
+                <label for="sort">Sort by</label>
+                <select id="sort">
+                    <option value="newest">Newest</option>
+                    <option value="oldest">Oldest</option>
+                </select>
+            </div>
+            <div class="posts-grid">
+            </div>
+            <div class="pagination">
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
